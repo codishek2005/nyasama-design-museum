@@ -37,6 +37,8 @@ const Page: FC<Props> = ({ galleries }) => {
                 flexWrap: 'wrap',
                 flexDirection: 'row',
                 justifyContent: 'center',
+                gap: '40px',
+                marginBlock: '40px'
             }}>
                 {
                     galleries.map(gallery => (
