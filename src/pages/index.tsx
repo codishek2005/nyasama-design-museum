@@ -1,13 +1,29 @@
-import galleryData from '@/data.json'
 import Banner from "@/components/Banner";
 import Header from "@/components/Header";
 import getConfig from "next/config";
 import Head from "next/head";
-import Gallery from '@/components/Gallery';
+import GalleryComp from '@/components/Gallery';
+import { Gallery, listGallery } from "@/lib/gallery";
+import { FC } from "react";
+import { GetStaticProps } from "next";
 
 const { publicRuntimeConfig } = getConfig()
 
-export default function Home() {
+interface Props {
+    galleries: Gallery[],
+}
+
+export const getStaticProps: GetStaticProps = async () => {
+
+
+    return {
+        props: {
+            galleries: listGallery()
+        },
+    };
+};
+
+const Page: FC<Props> = ({ galleries }) => {
     return (
         <>
             <Head>
@@ -23,12 +39,12 @@ export default function Home() {
                 justifyContent: 'center',
             }}>
                 {
-                    Object.entries(galleryData).map(([slug, gallery]) => (
-                        <Gallery
-                            key={slug}
+                    galleries.map(gallery => (
+                        <GalleryComp
+                            key={gallery.slug}
                             title={gallery.title}
-                            link={`/gallery/${slug}`}
-                            thumbnail={`/asset/${slug}/thumb.avif`}
+                            link={`/gallery/${gallery.slug}`}
+                            thumbnail={`/asset/${gallery.slug}/thumb.avif`}
                         />
                     ))
                 }
@@ -37,3 +53,4 @@ export default function Home() {
     );
 }
 
+export default Page

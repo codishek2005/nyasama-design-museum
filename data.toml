@@ -1,0 +1,34 @@
+[2025-q2]
+title = "2025 Summer"
+"description" = ""
+"images" = ["/asset/2025-q2/main.webp", "/asset/2025-q2/logged.webp"]
+
+[2025-q1]
+title = "2025 Spring"
+"description" = ""
+"images" = ["/asset/2025-q1/main.webp"]
+
+[2025-cny]
+title = "2025 Chinese New Year"
+"description" = ""
+"images" = ["/asset/2025-cny/main.webp"]
+
+[2024-q4]
+title = "2024 Winter"
+"description" = ""
+"images" = ["/asset/2024-q4/main.webp"]
+
+[2024-q2]
+title = "2024 Summer"
+"description" = ""
+"images" = ["/asset/2024-q2/main.webp"]
+
+[2024-q1]
+title = "2024 Spring"
+"description" = ""
+"images" = ["/asset/2024-q1/main.webp"]
+
+[2018-q4]
+title = "2018 Winter"
+"description" = ""
+"images" = ["/asset/2018-q4/main.webp"]

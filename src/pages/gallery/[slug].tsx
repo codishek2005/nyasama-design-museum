@@ -1,23 +1,30 @@
 import GalleryPage from '@/components/GalleryPage';
 import Header from '@/components/Header';
-import galleryData from '@/data.json'
+import { Gallery, getGallery, listGallery } from '@/lib/gallery';
 import { GetStaticPaths, GetStaticProps } from 'next';
 import Head from 'next/head';
+import { FC } from 'react';
+
+interface Props {
+    gallery: Gallery
+}
 
 export const getStaticPaths: GetStaticPaths = async () => {
-    const paths = Object.keys(galleryData).map((slug) => ({
-        params: { slug },
-    }));
+    const paths = listGallery().map(gallery => {
+        return { params: { slug: gallery.slug } }
+    })
+
 
     return {
         paths,
         fallback: false,
-    };
-};
+    }
+}
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
     const slug = params?.slug as string;
-    const gallery = galleryData[slug];
+    const gallery = getGallery(slug)
+
 
     if (!gallery) {
         return { notFound: true }
@@ -25,12 +32,12 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 
     return {
         props: {
-            gallery,
+            gallery
         },
     };
 };
 
-const Page = ({ gallery }) => {
+const Page: FC<Props> = ({ gallery }) => {
     return (
         <>
             <Head>
