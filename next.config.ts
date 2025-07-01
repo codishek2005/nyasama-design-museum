@@ -8,7 +8,7 @@ const nextConfig: NextConfig = {
     },
     publicRuntimeConfig: {
         title: "NyaSama Design Museum",
-        description: "A Screen Collection of NyaSama Design",
+        description: "NyaSama Forum Historical Design Archive",
     },
 };
 
