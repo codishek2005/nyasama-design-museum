@@ -13,7 +13,7 @@ const GalleryPage: FC<Props> = (props) => {
     return (
         <article className={styles.article}>
             <h1 className={styles.title}>{props.title}</h1>
-            <p className={styles.description}>{props.description}</p>
+            <div className={styles.description} dangerouslySetInnerHTML={{ __html: props.description }} />
             {
                 props.images.map((image) => (
                     <Link key={image} href={image}>
