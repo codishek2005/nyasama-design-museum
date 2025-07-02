@@ -1,69 +1,91 @@
 [2025-q2]
 title = "2025 Summer"
-"description" = ""
-"images" = ["/asset/2025-q2/main.webp", "/asset/2025-q2/logged.webp"]
+"description" = """
+Banner: https://bbs.nyasama.com/thread-1866302-1-1.html
+"""
+"images" = ["/asset/2025-q2/main.webp", "/asset/2025-q2/logged.webp", "/asset/2025-q2/banner.jpg"]
 
 [2025-q1]
 title = "2025 Spring"
-"description" = ""
+"description" = "Source: Internet Archive"
 "images" = ["/asset/2025-q1/main.webp"]
 
 [2025-cny]
 title = "2025 Chinese New Year"
-"description" = ""
+"description" = "Source: Internet Archive"
 "images" = ["/asset/2025-cny/main.webp"]
 
 [2024-q4]
 title = "2024 Winter"
 "description" = ""
-"images" = ["/asset/2024-q4/main.webp"]
+"images" = ["/asset/2024-q4/main.webp", "/asset/2024-q4/logged.webp"]
 
 [2024-q2]
 title = "2024 Summer"
-"description" = ""
-"images" = ["/asset/2024-q2/main.webp"]
+"description" = """Source: https://web.archive.org/web/20241006202238/https://bbs.nyasama.com/"""
+"images" = ["/asset/2024-q2/main.webp","/asset/2024-q2/banner.jpg"]
 
 [2024-q1]
 title = "2024 Spring"
-"description" = ""
+"description" = "Source: Internet Archive"
 "images" = ["/asset/2024-q1/main.webp"]
+
+[2024-cny]
+title = "2024 Chinese New Year"
+"description" = "Source: https://web.archive.org/web/20240324025241/https://bbs.nyasama.com/"
+"images" = ["/asset/2024-cny/main.webp"]
 
 [2018-q4]
 title = "2018 Winter"
-"description" = ""
+"description" = "Source: Internet Archive"
 "images" = ["/asset/2018-q4/main.webp"]
+
+[2016-q1]
+title = "2016 Spring"
+"description" = "Source: Internet Archive"
+"images" = ["/asset/2016-q1/main.webp"]
 
 [2015-q2]
 title = "2015 Summer"
-"description" = ""
+"description" = "Source: Internet Archive"
 "images" = ["/asset/2015-q2/main.webp"]
 
 [2014-q4]
 title = "2014 Winter"
-"description" = ""
+"description" = "Source: Internet Archive"
 "images" = ["/asset/2014-q4/main.webp"]
 
 [2014-cny]
 title = "2014 Chinese New Year"
-"description" = ""
+"description" = "Source: Internet Archive"
 "images" = ["/asset/2014-cny/main.webp"]
 
 [2013-q3]
 title = "2013 Autumn"
-"description" = ""
+"description" = "Source: Internet Archive"
 "images" = ["/asset/2013-q3/main.webp"]
 
 [2013-q2]
 title = "2013 Summer"
-"description" = ""
+"description" = "Source: Internet Archive"
 "images" = ["/asset/2013-q2/main.webp"]
 
 [2013-q1]
 title = "2013 Spring"
-"description" = ""
+"description" = "Source: Internet Archive"
 "images" = ["/asset/2013-q1/main.webp"]
 
 [2012]
 title = "2012"
-"description" = ""
+"description" = "Source: Internet Archive"
 "images" = ["/asset/2012/main.webp"]
+
+[2011-09]
+title = "2011 August"
+"description" = "Source: https://web.archive.org/web/20110902000619/http://bbs.nyasama.com/forum.php"
+"images" = ["/asset/2011-09/main.webp"]
+
+[2011-01]
+title = "2011 January"
+"description" = "Source: https://web.archive.org/web/20110127170222/http://bbs.nyasama.com/forum.php"
+"images" = ["/asset/2011-01/main.webp"]
