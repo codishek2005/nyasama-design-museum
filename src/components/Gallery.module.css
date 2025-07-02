@@ -3,10 +3,12 @@
     display: block;
     width: 320px;
     box-shadow: 0 0 8px 0 #0004;
-    transition: transform 0.2s ease;
 }
 .gallery:hover {
-    transform: scaleX(1.02) scaleY(1.02);
+    .title {
+        padding: 20px 0;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
 }
 
 .image {
@@ -22,6 +24,9 @@
     background-color: rgba(0, 0, 0, 0.5);
     text-align: center;
     padding: 10px 0;
+    transition-property: padding, background-color;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
     font-size: 1rem;
     font-weight: bold;
 }

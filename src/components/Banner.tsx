@@ -9,7 +9,7 @@ export default function Banner() {
         <div className={styles.banner}>
             <div className={styles.backgroundImage}>
                 <Image
-                    src="/banner.webp"
+                    src="/banner.avif"
                     alt="Banner image"
                     fill
                     style={{ objectFit: 'cover' }}
