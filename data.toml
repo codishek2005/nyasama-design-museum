@@ -3,7 +3,7 @@ title = "2025 Summer"
 description = """
 Banner: https://bbs.nyasama.com/thread-1866302-1-1.html
 """
-images = ["/asset/2025-q2/main.webp", "/asset/2025-q2/logged.webp", "/asset/2025-q2/banner.jpg"]
+images = ["/asset/2025-q2/main.webp", "/asset/2025-q2/node-general.webp", "/asset/2025-q2/banner.jpg", "/asset/2025-q2/logged.webp"]
 
 [2025-q1]
 title = "2025 Spring"
@@ -23,7 +23,7 @@ images = ["/asset/2024-q4/main.webp", "/asset/2024-q4/logged.webp"]
 [2024-q2]
 title = "2024 Summer"
 description = """
-Source: https://web.archive.org/web/20240810073228/https://bbs.nyasama.com/ <br>
+Source: https://web.archive.org/web/20240810073228/https://bbs.nyasama.com/
 Banner: https://bbs.nyasama.com/thread-1862182-1-1.html
 """
 images = ["/asset/2024-q2/main.webp","/asset/2024-q2/banner.jpg"]
@@ -77,6 +77,11 @@ images = ["/asset/2013-q2/main.webp"]
 title = "2013 Spring"
 description = "Source: Internet Archive"
 images = ["/asset/2013-q1/main.webp"]
+
+[2012-q4]
+title = "2012 Winter"
+description = "Source: https://web.archive.org/web/20130303101500/http://bbs.nyasama.com/"
+images = ["/asset/2012-q4/main.webp"]
 
 [2012]
 title = "2012"
