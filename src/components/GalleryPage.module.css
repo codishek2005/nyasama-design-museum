@@ -11,6 +11,7 @@
 }
 .description {
     margin-bottom: 20px;
+    white-space: pre-wrap;
 }
 .image {
     box-shadow: 0 0 10px 0 #0006;
